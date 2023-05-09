@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 from message_log import message_log
 api_key = "{YOU_API_KEY}"
-openai.api_key = "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"
+openai.api_key = "xxxxxx"
 
 
 def generate_response(message_log):

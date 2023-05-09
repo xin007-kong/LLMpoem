@@ -4,7 +4,7 @@ from PIL import Image
 import streamlit as st
 # openai.api_key = os.environ.get('OpenAI_API_Key')
 
-openai.api_key = "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"
+openai.api_key = "xxxxxx"
 
 @st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
 def openai_image(prompt):
